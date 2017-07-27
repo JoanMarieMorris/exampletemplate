@@ -61,15 +61,7 @@ footer {
 */
 
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: stretch;
-    margin: 10% 18%;
-    background-color: #F9FBFE;
-    border-radius: 4px;
-}
+
 
 .navbar {
     list-style-type: none;
@@ -93,7 +85,7 @@ main {
     color: black;
 }
 
-/*to make nav bar responsive */
+/*/*to make nav bar responsive */
 
 .nav-toggle {
     display: none;

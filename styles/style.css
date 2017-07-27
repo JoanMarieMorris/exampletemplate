@@ -1,0 +1,139 @@
+footer {
+    display: block;
+    width: 99.5%;
+    padding: 4px;
+    text-align: center;
+    background-color: DarkCyan;
+    color: Crimson;
+    font-size: 2em;
+}
+
+@media(max-width:450px) {
+    footer {
+        bottom: 0;
+        border-top: 5px solid black;
+    }
+}
+
+/*to make nav bar responsive */
+
+.nav-toggle {
+    display: none;
+    /*   visibility: hidden; */
+}
+
+
+/* 
+5) Hide the button for desktop
+*/
+
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+/* 
+4) Style nav -- inline, no bullet points, space between
+*/
+
+@media (max-width:400px) {
+    .nav-toggle {
+        display: block;
+    }
+    /* 
+6) Add media query for mobile styles
+*/
+    .nav-item {
+        display: block;
+    }
+    /* 
+8) Display the button on mobile
+*/
+    .mobile-nav-hidden {
+        display: none;
+    }
+}
+
+
+/* 
+9) Add a class that hides the nav items on mobile. This is an additional class because we are going to use it to sometimes show the nav and sometimes hide it
+*/
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    margin: 10% 18%;
+    background-color: #F9FBFE;
+    border-radius: 4px;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: #DBE0E9;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+
+
+
+.navbar a:hover {
+    color: black;
+}
+
+/*to make nav bar responsive */
+
+.nav-toggle {
+    display: none;
+    /*   visibility: hidden; */
+}
+
+
+/* 
+5) Hide the button for desktop
+*/
+
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+/* 
+4) Style nav -- inline, no bullet points, space between
+*/
+
+@media (max-width:400px) {
+    .nav-toggle {
+        display: block;
+    }
+    /* 
+6) Add media query for mobile styles
+*/
+    .nav-item {
+        display: block;
+    }
+    /* 
+8) Display the button on mobile
+*/
+    .mobile-nav-hidden {
+        display: none;
+    }
+}
+
+
+/* 
+9) Add a class that hides the nav items on mobile. This is an additional class because we are going to use it to sometimes show the nav and sometimes hide it
+*/
